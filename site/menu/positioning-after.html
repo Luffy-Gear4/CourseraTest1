@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Positioning Elements</title>
+<style>
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+ background-color: #00FFFF;
+}
+h1 {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+div#container {
+  background-color: #00FFFF;
+  position: relative;
+  top: 10px;
+  height: 400px;
+
+}
+.select{
+
+}
+p {
+  width:300px;
+  height: 100px;
+  border: 1px solid black;
+  margin-bottom: 15px;
+}
+#p1 {
+  background-color: #A52A2A;
+  position: relative;
+  top: 230px;
+  left: 0px;
+  
+
+}
+#p2 {
+ background-color:  #DEB887  ; 
+ background-image: url(luffy.jfif);
+ background-repeat: no-repeat;
+ background-position: center;
+ height:320px;
+ width: 150px;
+ position: absolute;
+ left:550px;
+ top: -50px;
+}
+.select:hover{
+  cursor: pointer;
+   background-image: url(luffy3.jfif);
+}
+#p3 {
+  background-color: #5F9EA0;
+  position: absolute;
+
+  top: 0;
+  left: 0;
+}
+#p4 {
+  background-color: #FF7F50;
+}
+
+</style>
+</head>
+<body>
+<h1>Positioning Elements</h1>
+
+<div id="container">
+  <a href="https://www.youtube.com/" target="_blank" ><p id="p1" class="select" title="Hi i am luffy" ></p></a> 
+  <p id="p2" class="select"></p>
+  <p id="p3"></p>
+  <p id="p4"></p>
+</div>
+
+</body>
+</html>
