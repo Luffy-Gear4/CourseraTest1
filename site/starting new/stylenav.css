@@ -3,15 +3,17 @@
 	box-sizing: border-box;
 	margin: 0px;
 	padding: 0px;
+	font-family: helvetica;
 }
 body{
-	background-color: #D3D3D3;
+	/*background-color: #D3D3D3;*/
+	background-color: #FFFFFF;
 }
 
 header{
 	font-size: 40px;
 	margin-bottom: 5px;
-	text-shadow: 0 0 3px  #000000;
+	text-shadow: 0 0 10px #FFFFFF;
 }
 nav{
 	background-color:#25476D;
@@ -20,14 +22,16 @@ nav{
 	border: 1px solid black;
 	padding:10px;
 	font-size: 20px;
-	text-shadow: 0 0 3px  #D3D3D3, 0 0 5px #C0C0C0;
-
 }	
-pre{
-	float: left;
-}
 a:hover{
 	cursor: pointer;
+	color: #FFFF33;
+	text-shadow: 0 0 3px #ADFF2F;
+	text-decoration-line: underline;
+} 
+a:visited{
+	padding: 2px;
+	background-color: blue;
 }
 .nav_mar , .nav_mar1 , .nav_mar3 , .nav_mar4{
 	margin:10px;
@@ -46,7 +50,7 @@ a{
 	
 	float: left;
 	margin-right: 10px;
-	border: 1px solid black;
+/*	border: 1px solid black;*/
 }
 @media(min-width: 1200px){
    	.nav_mar{
